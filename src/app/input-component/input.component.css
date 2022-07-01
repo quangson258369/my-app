@@ -1,0 +1,52 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.add {
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    color: blue;
+}
+
+p,
+h1,
+input {
+    padding: 0.5rem 2rem;
+}
+
+input {
+    height: 1.5rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.container {
+    margin: 1rem 1rem 3rem;
+}
+
+.task {
+    padding-left: 1rem;
+    margin: 0 0 1rem 1.5rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(173, 216, 230);
+}
+
+.task button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}

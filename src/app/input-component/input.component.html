@@ -1,0 +1,14 @@
+<section>
+    <div class="container">
+        <h1>To do list</h1>
+        <p>Enter text into the input field to add items to your list.</p>
+        <p>Click the "X" to remove the item from your list.</p>
+        <p>Click the item to mark it complete.</p>
+        <input type="text" id="input_todo" placeholder="input to do" (keyup.enter)="addTask()">
+        <button class="add" id="add" (click)="addTask()">⊕</button>
+        <div class="task" (click)="checkComplete($event)"><span>x</span><button (click)="deleteTask(index)">X</button>
+        </div>
+
+    </div>
+
+</section>
